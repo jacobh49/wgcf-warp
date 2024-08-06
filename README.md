@@ -1,5 +1,9 @@
 # wgcf on Github Codespaces
 
+### Create a Codespace
+
+Press the green `<> Code` button, then press `Create codespace on master.` Wait for the webpage to load.
+
 ### Register new account & generate WireGuard profile
 Run:
 ```bash
