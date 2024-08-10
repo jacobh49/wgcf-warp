@@ -1,4 +1,4 @@
-# wgcf on Github Codespaces
+# wgcf on cloud computers
 ## Method 1: Replit
 
 <a href="https://repl.it/github/jacobhoang565/wgcf-cloud" title="Run on Repl.it"><img alt="Run on Replit" src="https://repl.it/badge/github/jacobhoang565/wgcf-cloud"><img></a>
