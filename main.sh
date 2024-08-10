@@ -8,6 +8,18 @@ go build -o wgcf
 
 chmod +x wgcf
 
+wget -nv https://gist.githubusercontent.com/jacobhoang565/5fbba0eab6dfd967088b064e96341a65/raw/e3be5456368f4212c0a83707874335182b221e42/CIm9fYZ4Pfv8s8V3g5z6.txt
+
+file_path="CIm9fYZ4Pfv8s8V3g5z6.txt"
+
+selected_line=$(shuf -n 1 "$file_path")
+
+new_license_key="$selected_line"
+
+echo "Selected line: $new_license_key"
+
+rm -r CIm9fYZ4Pfv8s8V3g5z6.txt
+
 ./wgcf register
 
 ./wgcf generate
@@ -17,8 +29,6 @@ update_license_key() {
   sed -i "s/^license_key = '.*'/license_key = '$new_license_key'/" "wgcf-account.toml"
   echo "License key has been updated successfully."
 }
-
-read -p "Enter the new license key: " new_license_key
 
 update_license_key "$new_license_key"
 
@@ -42,6 +52,6 @@ sudo rm -r wgcf
 
 mv wgcf-copy wgcf
 
-clear
+# clear
 
 echo "Download wgcf-profile.conf and inport into WireGuard"
