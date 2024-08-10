@@ -13,6 +13,7 @@ cd ..
 
 mv main.sh shc
 mv main_generate.sh shc
+mv selection.sh shc
 
 cd shc
 
@@ -23,14 +24,26 @@ mv binary main
 
 mv main ..
 
+#####
+
 shc -f main_generate.sh -o binary
 
 mv binary main_generate
 
 mv main_generate ..
 
-mv main.sh ..
+#####
 
+shc -f selection.sh -o binary
+
+mv binary selection
+
+mv selection ..
+
+#####
+
+mv selection.sh ..
+mv main.sh ..
 mv main_generate.sh ..
 
 cd ..
@@ -42,3 +55,5 @@ mkdir binaries
 mv main binaries
 
 mv main_generate binaries
+
+mv selection binaries
