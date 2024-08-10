@@ -7,7 +7,7 @@
 
 2. Wait for the webpage to load, then click `Run` at the top of the screen.
 
-3. Press `1` if you have a Warp+ license key. Press `2` to get one.
+3. Press `1` if you have a Warp+ license key. Press `2` to get one with your WireGuard config.
 
 4. Hit `Enter` to agree to the Terms of Service when prompted.
 
@@ -26,7 +26,7 @@
 chmod +x selection
 ./selection
 ```
-3. Press `1` if you have a Warp+ license key. Press `2` to get one.
+3. Press `1` if you have a Warp+ license key. Press `2` to get one with your WireGuard config.
 
 4. Hit `Enter` to agree to the Terms of Service when prompted.
 
