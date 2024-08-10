@@ -5,4 +5,4 @@ run = "./selection"
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "./selection.sh"]
+run = ["sh", "-c", "./selection"]
