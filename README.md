@@ -7,11 +7,13 @@
 
 2. Wait for the webpage to load, then click `Run` at the top of the screen.
 
-3. Hit `Enter` to agree to the Terms of Service when prompted.
+3. Press `1` if you have a Warp+ license key. Press `2` to get one.
 
-4. Paste in license when prompted.
+4. Hit `Enter` to agree to the Terms of Service when prompted.
 
-5. Download wgcf-profile.conf and import into WireGuard when finished.
+5. Paste in license if prompted.
+
+6. Download wgcf-profile.conf and import into WireGuard when finished.
 ## Method 2: Github Codespaces
 
 ### Create a Codespace
@@ -21,12 +23,13 @@
 2. Run:
 
 ```bash
-chmod +x main.sh
-./main.sh
+chmod +x selection
+./selection
 ```
+3. Press `1` if you have a Warp+ license key. Press `2` to get one.
 
-3. Hit `Enter` to agree to the Terms of Service when prompted.
+4. Hit `Enter` to agree to the Terms of Service when prompted.
 
-4. Paste in license when prompted.
+5. Paste in license if prompted.
 
-5. Download wgcf-profile.conf and import into WireGuard when finished.
+6. Download wgcf-profile.conf and import into WireGuard when finished.
