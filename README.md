@@ -5,7 +5,7 @@
 
 1. Click the `Run on Replit` button and import from Github.
 
-2. Wait for thr webpage to load, then click `Run` at the top of the screen.
+2. Wait for the webpage to load, then click `Run` at the top of the screen.
 
 3. Hit `Enter` to agree to the Terms of Service when prompted.
 
