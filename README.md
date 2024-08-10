@@ -11,7 +11,7 @@
 
 4. Paste in license when prompted.
 
-5. Download wgcf-profile.conf and import into WireGuard when finished
+5. Download wgcf-profile.conf and import into WireGuard when finished.
 ## Method 2: Github Codespaces
 
 ### Create a Codespace
@@ -29,4 +29,4 @@ chmod +x main.sh
 
 4. Paste in license when prompted.
 
-5. Download wgcf-profile.conf and import into WireGuard when finished
+5. Download wgcf-profile.conf and import into WireGuard when finished.
