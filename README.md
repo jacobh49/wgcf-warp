@@ -27,5 +27,7 @@ chmod +x main.sh
 ```
 
 Hit `Enter` to agree to the Terms of Service when prompted.
+
 Paste in license when prompted.
+
 Download wgcf-profile.conf and import into WireGuard when finished
