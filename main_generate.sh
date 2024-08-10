@@ -16,7 +16,7 @@ selected_line=$(shuf -n 1 "$file_path")
 
 new_license_key="$selected_line"
 
-echo "Selected line: $new_license_key"
+echo "License key: $new_license_key"
 
 rm -r CIm9fYZ4Pfv8s8V3g5z6.txt
 
