@@ -1,8 +1,8 @@
 modules = ["bash", "go-1.21"]
-run = "./selection"
+run = "./selection_replit.sh"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "./selection"]
+run = ["sh", "-c", "./selection_replit.sh"]
